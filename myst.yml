@@ -24,6 +24,6 @@ project:
       title: "3. Conclusiones"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  logo: figures/logo.png
+  options:
+    logo: figures/logo.png
+    favicon: figures/logo.png
