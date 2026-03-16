@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 70ecd237-e6bb-428d-906f-5ee1a2426862
+  title: "FUCO: Fuzzy Counterfactuals Examples"
+  toc:
+    - file: 00_intro.md
+      title: "0. Introducción"
+
+    - file: 01_EDA.ipynb
+      title: "1. Análisis exploratorio"
+
+    - file: 02_INTRO_METODOS.md
+      title: "2. FUCO"
+      children:
+        - file: 02_1_FUCO_PER_Y_GUI.ipynb
+          title: "2.1 Permutación y guiado"
+        - file: 02_2_FUCO_OPT_MULOBJ.ipynb
+          title: "2.2 Optimización multiobjetivo"
+        - file: 02_3_FUCO_PROY_INV.ipynb
+          title: "2.3 Proyección inversa"
+    
+    - file: 03_Conclusiones.md
+      title: "3. Conclusiones"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
