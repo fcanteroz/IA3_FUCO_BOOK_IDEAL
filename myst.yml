@@ -3,6 +3,7 @@ version: 1
 project:
   id: 70ecd237-e6bb-428d-906f-5ee1a2426862
   title: "FUCO: Fuzzy Counterfactuals Examples"
+  logo: figures/logo.png
   toc:
     - file: 00_intro.md
       title: "0. Introducción"
